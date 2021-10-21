@@ -11,10 +11,19 @@ import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 import {MatTableModule} from '@angular/material/table';
 
 import {MatSortModule} from '@angular/material/sort';
+import { ProduktaiComponent } from './produktai/produktai.component';
+import { KontaktaiComponent } from './kontaktai/kontaktai.component';
+import { ApiemusComponent } from './apiemus/apiemus.component';
+
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,    
+    ProduktaiComponent,
+    KontaktaiComponent,
+    ApiemusComponent,
+  
   ],
   imports: [
     BrowserModule,
